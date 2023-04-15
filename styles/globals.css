@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.ridiculous-styluh {
+  transition: transform 0.5s;
+}
+
+.ridiculous-styluh:hover {
+  transform: scale(10) rotate(360deg);
+}

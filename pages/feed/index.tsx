@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Feed() {
   return (
-    <div>
-      <h1>Feed Page</h1>
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div>Check out these other creators</div>
+    </main>
   )
 }

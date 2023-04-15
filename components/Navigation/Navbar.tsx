@@ -9,7 +9,7 @@ export function Navbar() {
 
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-      <p className="mr-6">You are logged-in with {wallet?.address}</p>
+      <p className="mr-6">{wallet?.address && `You are logged in with ${wallet?.address}`}</p>
       {loading ? <p className="mr-6">Loading...</p> : <div className="mr-6">{wallet ? <LogoutButton /> : <LoginButton />}</div>}
     </nav>
   )
